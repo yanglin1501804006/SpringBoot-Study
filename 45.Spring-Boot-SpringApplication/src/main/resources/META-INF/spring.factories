@@ -1,0 +1,13 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.allan.demo.initializer.HelloApplicationContextInitializer,\
+com.allan.demo.initializer.AfterHelloApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.allan.demo.listener.ContextClosedEventListener,\
+com.allan.demo.listener.AfterContextClosedEventListener
+
+# Run Listeners
+#org.springframework.boot.SpringApplicationRunListener=\
+com.allan.demo.listener.HelloApplicationRunListener
