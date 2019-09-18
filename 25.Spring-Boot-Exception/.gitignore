@@ -1,0 +1,37 @@
+##ignore this file##
+##中间目录包含target/目录
+target/
+*.classpath
+*.project
+*.settings
+*.idea
+*.log
+*.iml
+##中间目录包含build/目录
+build/
+*.mdb
+*.ldb
+*.sln   
+*.msi
+
+##编译文件
+*.class 
+*.dll
+*.exe
+*.exe~
+*.o
+*.so
+
+# compression file
+*.7z
+*.dmg
+*.gz
+*.iso 
+*.jar
+*.rar
+*.tar 
+*.zip
+*.via
+*.tmp
+*.temp
+*.err
